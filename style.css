@@ -1,3 +1,6 @@
 .social {
   gap: 1rem;
 }
+.deneme {
+  flex-wrap: wrap !important;
+}
