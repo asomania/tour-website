@@ -1,0 +1,11 @@
+.social {
+  gap: 10px;
+  font-size: 20px;
+}
+.bordercard {
+  border: 1px solid #e6e6e6;
+  border-radius: 0px;
+  padding: 5px;
+  margin: 8px;
+  background-color: #f2f2f2;
+}

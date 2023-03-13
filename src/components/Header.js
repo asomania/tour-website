@@ -1,11 +1,12 @@
 import { BiPhoneCall } from "react-icons/bi";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import "./style/Header.css";
 
 const Header = () => {
   return (
     <>
-      <div class="card text-white bg-info">
-        <div class="card-body d-flex justify-content-between">
+      <div class="card text-white bg-info bordercard">
+        <div class="card-body  d-flex justify-content-between">
           <div>
             <a class="nav-link" href="#">
               <BiPhoneCall /> +90 (542) 000 00 00
