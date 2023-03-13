@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BiPhoneCall } from "react-icons/bi";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <div class="card text-white bg-info">
+          <div class="card-body d-flex justify-content-between">
+            <div>
+              <a class="nav-link" href="#">
+                {" "}
+                <BiPhoneCall />
+                +90 (542) 000 00 00{" "}
+              </a>
+            </div>
+            <div class="d-flex social">
+              <a class="nav-link" href="#">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a class="nav-link" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="nav-link" href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
