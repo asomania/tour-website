@@ -31,56 +31,81 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 data-bs-auto-close="outside"
               >
-                Multilevel
+                Turlar
               </a>
               <ul class="dropdown-menu shadow">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Gallery
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="blog.html">
-                    Blog
-                  </a>
-                </li>
-                <li class="dropstart">
+                <li class="dropend">
                   <a
                     href="#"
                     class="dropdown-item dropdown-toggle"
                     data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
                   >
-                    Submenu Left
+                    Eğlence turları
                   </a>
                   <ul class="dropdown-menu shadow">
                     <li>
                       <a class="dropdown-item" href="">
-                        {" "}
-                        Third level 1
+                        Bot Turu
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Third level 2
+                        Safari
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Third level 3
+                        Night Club Turu
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Third level 4
+                        Atv - Off Road
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        Green Canyon
+                      </a>
+                    </li>{" "}
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Spadere Canyon
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Third level 5
+                        Tazı Canyon
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Alanya Teleferik
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Mehtap Turu
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Gece Köpük Partisi Tekne Turu
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        AquaPark
                       </a>
                     </li>
                   </ul>
@@ -92,116 +117,104 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     data-bs-auto-close="outside"
                   >
-                    Submenu Right
+                    Şehir Turları
                   </a>
                   <ul class="dropdown-menu shadow">
                     <li>
                       <a class="dropdown-item" href="">
-                        {" "}
-                        Second level 1
+                        İstanbul Turu
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Second level 2
+                        Kapadokya Turu
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Second level 3
+                        Pamukkale Turu
                       </a>
-                    </li>
-                    <li class="dropend">
-                      <a
-                        href="#"
-                        class="dropdown-item dropdown-toggle"
-                        data-bs-toggle="dropdown"
-                        data-bs-auto-close="outside"
-                      >
-                        Let's go deeper!
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu shadow">
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 1
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 2
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 3
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 4
-                          </a>
-                        </li>
-                        <li class="dropend">
-                          <a
-                            href="#"
-                            class="dropdown-item dropdown-toggle"
-                            data-bs-toggle="dropdown"
-                          >
-                            Still don't have enough? Go much deeper!
-                          </a>
-                          <ul class="dropdown-menu dropdown-submenu shadow">
-                            <li>
-                              <a class="dropdown-item" href="">
-                                {" "}
-                                Third level 1
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                {" "}
-                                Third level 2
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                {" "}
-                                Third level 3
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                Third level 4
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                Third level 5
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
-                        Third level 5
+                        {" "}
+                        Kıbrıs Turu
                       </a>
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
+                <li class="dropend">
+                  <a
+                    href="#"
+                    class="dropdown-item dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                  >
+                    Aktiviteler
                   </a>
+                  <ul class="dropdown-menu shadow">
+                    <li>
+                      <a class="dropdown-item" href="">
+                        Yamaç Paraşütü
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Deniz Paraşütü
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Rafting
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Jetski
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Su Kaydırağı
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Snorkel ile Dalış Turu
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Tüplü Dalış
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        At Binme
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Zipline
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="">
+                        {" "}
+                        Yunuslar ile Yüzme
+                      </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </li>
