@@ -31,7 +31,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 data-bs-auto-close="outside"
               >
-                Multilevel
+                Tours
               </a>
               <ul class="dropdown-menu shadow">
                 <li>
@@ -44,47 +44,6 @@ const Navbar = () => {
                     Blog
                   </a>
                 </li>
-                <li class="dropstart">
-                  <a
-                    href="#"
-                    class="dropdown-item dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                  >
-                    Submenu Left
-                  </a>
-                  <ul class="dropdown-menu shadow">
-                    <li>
-                      <a class="dropdown-item" href="">
-                        {" "}
-                        Third level 1
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">
-                        {" "}
-                        Third level 2
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">
-                        {" "}
-                        Third level 3
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">
-                        {" "}
-                        Third level 4
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">
-                        {" "}
-                        Third level 5
-                      </a>
-                    </li>
-                  </ul>
-                </li>
                 <li class="dropend">
                   <a
                     href="#"
@@ -92,116 +51,28 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     data-bs-auto-close="outside"
                   >
-                    Submenu Right
+                    Eğlence turları
                   </a>
                   <ul class="dropdown-menu shadow">
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Second level 1
+                        Safari 1
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Second level 2
+                        Atw 2
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="">
                         {" "}
-                        Second level 3
-                      </a>
-                    </li>
-                    <li class="dropend">
-                      <a
-                        href="#"
-                        class="dropdown-item dropdown-toggle"
-                        data-bs-toggle="dropdown"
-                        data-bs-auto-close="outside"
-                      >
-                        Let's go deeper!
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu shadow">
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 1
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 2
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 3
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="">
-                            {" "}
-                            Third level 4
-                          </a>
-                        </li>
-                        <li class="dropend">
-                          <a
-                            href="#"
-                            class="dropdown-item dropdown-toggle"
-                            data-bs-toggle="dropdown"
-                          >
-                            Still don't have enough? Go much deeper!
-                          </a>
-                          <ul class="dropdown-menu dropdown-submenu shadow">
-                            <li>
-                              <a class="dropdown-item" href="">
-                                {" "}
-                                Third level 1
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                {" "}
-                                Third level 2
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                {" "}
-                                Third level 3
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                Third level 4
-                              </a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="">
-                                Third level 5
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">
-                        Third level 5
+                        Tekne Turu 3
                       </a>
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
                 </li>
               </ul>
             </li>
