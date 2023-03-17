@@ -9,3 +9,12 @@
   margin: 8px;
   background-color: #f2f2f2;
 }
+@media (max-width: 576px) {
+  .headerr {
+    font-size: 1.5vh;
+  }
+  .flag > a > img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}
