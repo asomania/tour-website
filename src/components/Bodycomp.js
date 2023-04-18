@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "@mui/material";
+
 const Bodycomp = () => {
-  retur(
+  return (
     <Container>
       <Row>
-        <Col>
-          <h1>Bodycomp</h1>
-        </Col>
+        <Col>//Carusel</Col>
       </Row>
     </Container>
   );
