@@ -12,6 +12,7 @@
     "bootstrap": "^5.2.3",
     "bootswatch": "^5.2.3",
     "i18next": "^22.4.12",
+    "i18next-http-backend": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
